@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color:darkcyan;
+    background: linear-gradient(to left top, yellow, skyblue,yellow);
+}
+
+.container{
+    background-color: rgba(255,255,255,.6);
+    padding: 30px;
+    border-radius: 10px;
+   
+}
+
+.container:hover{
+    box-shadow: 5px 8px #888888 ;
+}
+
+
+.input{
+    height:20px;
+    border-radius: 5px;
+    outline: none;
+    border-color: none;
+}
+
+.Error{
+    color: red;
+}
